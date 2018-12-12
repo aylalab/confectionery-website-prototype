@@ -56,6 +56,28 @@ nav a {
   font-size: 1.125rem;
 }
 
-.nav{
+.nav {
   padding-left: 0;
+}
+
+.shipping {
+
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FAF4CC;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.links ul {
+  padding-left: 0;
+}
+
+.links {
+  width: 33.3333%;
 }
