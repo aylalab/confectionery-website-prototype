@@ -568,4 +568,93 @@ footer {
     margin: 0 0 1.5rem;
   }
 
+  h1 {
+    font-size: 4rem;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .account {
+    width: 70px;
+  }
+
+  .cart {
+    width: 70px;
+  }
+
+  .choc p {
+    position: absolute;
+    bottom: 23%;
+    left: 10%;
+    color: #fff;
+    font-family: "Abril Fatface", cursive;
+    font-size: 3rem;
+  }
+
+  .choc a {
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+    color: #fff;
+    text-decoration: none;
+    padding: .5em .7em;
+    border: 2px solid #fff;
+    border-radius: 8px;
+  }
+
+  .hotcocoa h2 {
+    font-size: 4rem;
+    bottom: 30%;
+  }
+
+  .hotcocoa a {
+    position: absolute;
+    bottom: 20%;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    padding: .875rem;
+    font-size: 1.5rem;
+  }
+
+  .hotcocoa a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .truck {
+    margin: 1rem;
+  }
+
+  .shipping p {
+    font-size: 1.5rem;
+  }
+
+  .banner-content p {
+    font-size: 2.5rem;
+  }
+
+  .footer {
+    padding-left: 6rem;
+  }
+
+  .twitter p {
+    font-size: 1.5rem;
+  }
+
+  .twt {
+    width: 60px;
+  }
+
+  .twitter {
+    padding-left: 14rem;
+  }
+
+  .questions p {
+    font-size: 2rem;
+  }
+
 }
