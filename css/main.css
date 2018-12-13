@@ -100,6 +100,10 @@ label {
   display: none;
 }
 
+.background {
+  border-top: 4px solid #fff;
+}
+
 .treats {
   display: none;
   background-color: #484642;
@@ -107,13 +111,39 @@ label {
 }
 
 .choc {
-  display: none;
-  background-color: #484642;
-  width: 49%;
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  margin: auto;
 }
 
-.main {
-  margin: auto;
+.choc p {
+  position: absolute;
+  bottom: 2rem;
+  left: .5rem;
+  color: #fff;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.5rem;
+}
+
+.choc a {
+  position: absolute;
+  bottom: 1rem;
+  left: .5rem;
+  color: #fff;
+  text-decoration: none;
+  padding: .3em .5em;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.choc a:hover {
+  background-color: #fff;
+  color: gray;
+}
+
+.hot-chocolate {
+  border-top: 4px solid #fff;
 }
 
 .hotcocoa {
@@ -122,24 +152,16 @@ label {
   overflow: hidden;
 }
 
-.hotcocoa p {
-  position: absolute;
-  bottom: 5em;
-  max-width: 50em;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-left: 1rem;
-  padding-right: 0;
-  color: #fff;
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-
 .hotcocoa h2 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
+  letter-spacing: 2px;
   position: absolute;
-  bottom: 10em;
-  left: 30%;
+  bottom: 2.5em;
+  left: 0rem;
+  color: #7A0606;
+  text-align: center;
+  font-size: 1.75rem;
 }
 
 .hotcocoa a {
@@ -157,16 +179,16 @@ label {
   color: #000;
 }
 
-.quality {
+.quality-choc {
   position: relative;
-  max-height: 500px;
   overflow: hidden;
+  margin: auto;
+  border-top: 4px solid #fff;
 }
 
 .quality p {
   position: absolute;
   bottom: 1em;
-  max-width: 50em;
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -183,7 +205,7 @@ label {
 }
 
 .best-sellers img {
-  display: inline;
+  display: inline-block;
   margin: 0 auto;
   height: 100%;
   width: auto;
@@ -236,6 +258,10 @@ h3 {
   padding-right: 1.5rem;
 }
 
+img.img-flex {
+  border-top: 4px solid #fff;
+}
+
 .banner-content p {
   font-family: "Abril Fatface", cursive;
   display: block;
@@ -263,6 +289,7 @@ h3 {
   align-items: center;
   background-color: #484642;
   padding: .5rem;
+  border-top: 4px solid #fff;
 }
 
 .shipping p {
