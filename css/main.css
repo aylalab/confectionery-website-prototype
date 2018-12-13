@@ -44,11 +44,25 @@ h1 {
   font-size: 1.3rem;
 }
 
+div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart {
+  width: 60px;
+  padding: .5rem;
+}
+
+.account {
+  width: 60px;
+  padding: .5rem;
+}
+
 .bar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: .5rem;
 }
 
 .nav {
@@ -77,13 +91,29 @@ h1 {
 }
 
 label {
-  margin: 0 40px 0 0;
+  margin: 0 10px 0 0;
   font-size: 26px;
   line-height: 70px;
   display: none;
 }
 #toggle {
   display: none;
+}
+
+.treats {
+  display: none;
+  background-color: #484642;
+  width: 49%;
+}
+
+.choc {
+  display: none;
+  background-color: #484642;
+  width: 49%;
+}
+
+.main {
+  margin: auto;
 }
 
 .hotcocoa {
@@ -104,6 +134,27 @@ label {
   color: #fff;
   font-size: 1.5rem;
   margin-top: 0;
+}
+
+.hotcocoa h2 {
+  position: absolute;
+  bottom: 10em;
+  left: 30%;
+}
+
+.hotcocoa a {
+  position: absolute;
+  bottom: 35px;
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  padding: .875rem;
+}
+
+.hotcocoa a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .quality {
@@ -163,7 +214,7 @@ label {
   display: inline-block;
 }
 
-h2 {
+h3 {
   margin-top: 0;
   padding-left: 1rem;
 }
@@ -225,7 +276,7 @@ h2 {
   background-color: #484642;
 }
 
-.twitter p {
+.twitter {
   color: #fff;
   text-decoration: none;
 }
@@ -237,9 +288,11 @@ h2 {
 
 .footer {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   background-color: #000;
   color: #fff;
+  padding-left: 1rem;
 }
 
 .links li {
@@ -252,6 +305,11 @@ h2 {
 
 .links a {
   text-decoration: none;
+  color: #757370;
+}
+
+.links a:hover {
+  color: #fff;
 }
 
 .links {
