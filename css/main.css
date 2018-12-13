@@ -188,7 +188,7 @@ label {
 
 .quality p {
   position: absolute;
-  bottom: 1em;
+  bottom: 3em;
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -209,6 +209,10 @@ label {
   margin: 0 auto;
   height: 100%;
   width: auto;
+}
+
+.best-sellers {
+  padding-left: .5rem;
 }
 
 .best-sellers ul {
@@ -234,11 +238,18 @@ label {
 
 .best-sellers li {
   display: inline-block;
+  width: 32%;
 }
 
 h3 {
+  text-align: center;
+  background-color: #CBAD7C;
   margin-top: 0;
-  padding-left: 1rem;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 0;
 }
 
 .holiday-banner {
