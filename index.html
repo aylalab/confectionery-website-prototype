@@ -4,23 +4,32 @@
   <meta charset="utf-8">
   <title>Confectionary website prototype</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <h1>Coco's Chocolatiers</h1>
+    <div class="bar">
+      <img class="logo" src="images/logo.png" alt="">
+      <h1>Coco's Chocolatiers</h1>
+    </div>
     <input type="text" placeholder="search...">
     <a href="">My Cart</a>
     <a href="">My Account</a>
+    <div class="nav">
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
     <nav>
-      <ul class="nav">
+      <ul class="menu">
         <li><a href="#">Chocolate</a></li>
         <li><a href="#">Treats</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Blog</a></li>
       </ul>
     </nav>
+    </div>
   </header>
 
   <main>
@@ -34,40 +43,82 @@
       <a href="">Shop Now</a>
     </div>
     <a class="hotcocoa" href="">
-      <img src="images/hot-chocolate.jpg" alt="">
+      <img class="hot-chocolate" src="images/hot-chocolate.jpg" alt="">
       <p>Holiday Hot Chocolate Recipes</p>
     </a>
     <a class="quality" href="">
-      <p>The Highest Quality Chocolate, Always</p>
+      <img class="quality-choc" src="images/high-quality.jpg" alt="">
+      <p>The Highest Quality Chocolate, <em>Always</em></p>
     </a>
-    <h2>Best Sellers</h2>
-    <section class="best-sellers">
-      <ul>
-        <li><a href="#"><img src="images/red-velvet.jpg" alt="Red Velvet"></a></li>
-        <li><a href="#"><img src="images/praline.jpg" alt="Praline"></a></li>
-        <li><a href="#"><img src="images/caramel.jpg" alt="Caramel"></a></li>
-        <li><a href="#"><img src="images/best-seller-dark.jpg" alt="Dark"></a></li>
-        <li><a href="#"><img src="images/truffles.jpg" alt="Truffles"></a></li>
-        <li><a href="#"><img src="images/mendiants.jpg" alt="Mendiants"></a></li>
-      </ul>
-    </section>
-
-    <div class="shipping">
-      <p>Free Shipping on Orders Over $25CAD</p>
+    <div class="best">
+      <h2>Best Sellers</h2>
+      <section class="best-sellers">
+        <ul>
+          <li>
+            <a href="#">
+              <div class="image-cropper">
+                <img src="images/red-velvet.jpg" alt="Red Velvet">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image-cropper">
+                <img src="images/praline.jpg" alt="Praline">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image-cropper">
+                <img src="images/caramel.jpg" alt="Caramel">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image-cropper">
+                <img src="images/best-seller-dark.jpg" alt="Dark">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image-cropper">
+                <img src="images/truffles.jpg" alt="Truffles">
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="image-cropper">
+                <img src="images/mendiants.jpg" alt="Mendiants">
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
 
-    <div class="holiday-banner">
+    <div class="shipping">
+      <img class="truck" src="images/shipping.png" alt="">
+      <p>Free Shipping on Orders Over $25CAD</p>
+      <img class="truck" src="images/shipping-copy.png" alt="">
+    </div>
+
+    <a class="holiday-banner" href="">
       <img class="img-flex" src="images/christmas-chocolate.jpg" alt="Holday Box">
       <div class="banner-content">
         <p>Take the guesswork out of christmas with our new Holiday Box</p>
       </div>
-    </div>
+    </a>
 
     <a class="questions" href="#">
       <p>Questions? Send us a message!</p>
     </a>
 
     <a class="twitter" href="#">
+      <img class="twt"src="images/twitter.png" alt="">
       <p>Follow us on Twitter!</p>
     </a>
 
@@ -105,5 +156,6 @@
     <small class="copyright">©2018 Coco's Chocolatiers</small>
   </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
